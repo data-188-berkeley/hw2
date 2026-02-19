@@ -104,4 +104,6 @@ def train_mnist(
 
 
 if __name__ == "__main__":
-    train_mnist(data_dir="../data")
+    # Usage: run from project basedir, eg:
+    #   python apps/mlp_resnet.py
+    train_mnist(data_dir="data")
